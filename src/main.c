@@ -14,11 +14,10 @@ int counting(char v[]){
 
     for(i=0; i<1000; i++){
         if(v[i]!='\0')
-          n++;
+            n++;
         else
             break;
     }
-
 return n;
 }
 
@@ -68,9 +67,8 @@ int main(){
                 n_palavras++;
             }
         }
-        else{
+        else
             break;
-        }
         
         /*Redefiniçao dos parametros necessarios para a comparaçao dos caracteres*/
         c_anterior2 = c_anterior;
